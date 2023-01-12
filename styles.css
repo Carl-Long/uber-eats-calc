@@ -36,6 +36,7 @@
 }
 
 #delivery{
+    -webkit-appearance: none;
     outline: none;
     max-width: 15%;
     border: none;
@@ -57,6 +58,7 @@
     width: 120px;
     text-align: center;
     font-size: 4vw;
+    -webkit-appearance: none;
 }
 
 #orderEntry{
@@ -77,6 +79,7 @@
     border-bottom: solid black 2px;
     text-align: center;
     font-size: 4vw;
+    -webkit-appearance: none;
 }
 
 #name{
@@ -85,6 +88,7 @@
     border-bottom: solid black 2px;
     width: auto;
     font-size: 4vw;
+    -webkit-appearance: none;
 }
 
 .button{
