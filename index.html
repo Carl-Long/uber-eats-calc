@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
+    <title>Uber Eats Order Splitter</title>
+</head>
+
+<body id="body">
+    <div id="header">
+    <h1 id="title">Uber Eats order splitter</h1>
+    </div>
+    <div id="discounts">
+        <label class="label" for="uberOne">Uber One</label>
+        <input type="checkbox" onclick="toggleUberOne()" id="uberOne" name="uberOne" value=0>
+        <label class="label" for="delivery">Delivery Fee:</label>
+        <input type="number" id="delivery" name="'delivery" min="0" placeholder="0.00"><br></br>
+        <label class="label" for="discount">Discount amount (%):</label>
+        <input type="number" id="discount" name="discount" min="0" placeholder="Enter discount">
+    </div><br>
+    <div id="orderEntry">
+    <form>
+        <label class="label" for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter a name..."></input><br></br>
+        <label class="label" for="orderAmount">Order Amount:</label>
+        <input type="number" id="orderAmount" name="orderAmount" min="0" placeholder="0.00"></input>
+        <input type="button" class="button"
+            onclick="handleSubmit(document.getElementById('name').value, document.getElementById('orderAmount').value)"
+            value="Add to order"></input>
+    </form>
+    </div>
+    <div id="container">
+        <button id="clear" onclick="clearOrder()">Clear</button>
+        <div id="orderInfo">
+            <div id="entries"></div>
+        </div>
+        <div id="results">
+            <div id="totals"></div>
+        </div>
+        <button class="button" onclick="calculate()">Calculate</button>
+    </div>
+</body>
+
+</html>
