@@ -5,6 +5,12 @@
  font-family: Arial, Helvetica, sans-serif;
 }
 
+input{
+    border: none;
+    border-radius: 0;
+    font-size: 16px;
+}
+
 #header{
     background-color: green;
     padding: 3%;
