@@ -7,8 +7,7 @@
 
 #header{
     background-color: green;
-    width: 90%;
-    padding: 5%;
+    padding: 3%;
 
 }
 #title {
@@ -36,8 +35,8 @@
     background-color: aliceblue;
 }
 
-
 #delivery{
+    outline: none;
     max-width: 15%;
     border: none;
     border-bottom: solid black 2px;
@@ -51,10 +50,11 @@
 }
 
 #discount{
+    outline: none;
     border: none;
     border-bottom: solid black 2px;
     margin-bottom: 4px;
-    width: auto;
+    width: 120px;
     text-align: center;
     font-size: 4vw;
 }
@@ -71,6 +71,7 @@
 
 
 #orderAmount{
+    outline: none;
     width: 110px;
     border: none;
     border-bottom: solid black 2px;
@@ -79,6 +80,7 @@
 }
 
 #name{
+    outline: none;
     border: none;
     border-bottom: solid black 2px;
     width: auto;
@@ -93,6 +95,7 @@
     height: 40px;
     border-radius: 8px;
     font-size: 4vw;
+    -webkit-appearance: none;
 }
 
 .subTitle{
@@ -119,6 +122,7 @@
     border-radius: 8px;
     font-size: 4vw;
 }
+
 #container {
     font-size: 4vw;
     width: 90%;
