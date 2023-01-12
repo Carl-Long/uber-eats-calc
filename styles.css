@@ -5,11 +5,6 @@
  font-family: Arial, Helvetica, sans-serif;
 }
 
-input{
-    border: none;
-    border-radius: 0;
-    font-size: 16px;
-}
 
 #header{
     background-color: green;
@@ -47,8 +42,9 @@ input{
     max-width: 15%;
     border: none;
     border-bottom: solid black 2px;
+    border-radius: 0px;
     text-align: center;
-    font-size: 4vw;
+    font-size: 18px;
 }
 
 #delivery:disabled{
@@ -60,10 +56,11 @@ input{
     outline: none;
     border: none;
     border-bottom: solid black 2px;
+    border-radius: 0px;
     margin-bottom: 4px;
     width: 120px;
     text-align: center;
-    font-size: 4vw;
+    font-size: 18px;
     -webkit-appearance: none;
 }
 
@@ -82,9 +79,10 @@ input{
     outline: none;
     width: 110px;
     border: none;
+    border-radius: 0px;
     border-bottom: solid black 2px;
     text-align: center;
-    font-size: 4vw;
+    font-size: 18px;
     -webkit-appearance: none;
 }
 
@@ -92,8 +90,9 @@ input{
     outline: none;
     border: none;
     border-bottom: solid black 2px;
+    border-radius: 0px;
     width: auto;
-    font-size: 4vw;
+    font-size: 18px;
     -webkit-appearance: none;
 }
 
